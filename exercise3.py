@@ -41,6 +41,10 @@ class Cart:
         })
         return
         
+    def clear(self) -> None:
+        # TODO
+        self.lines.clear()
+        
 
     def remove_item(self, item_id: int) -> None:
         # TODO: raise KeyError if the item is not in the cart
