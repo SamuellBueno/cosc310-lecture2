@@ -50,8 +50,7 @@ class Cart:
 
     def clear(self) -> None:
         # TODO
-        for item in self.lines:
-            self.lines.remove[item]
+        self.lines.clear()
         
 
     def total(self) -> float:
